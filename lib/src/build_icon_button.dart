@@ -65,7 +65,7 @@ class BuildIconButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final MediaQueryData mediaQueryData = MediaQuery.of(context);
     final double deviceWidth = mediaQueryData.size.width;
-    final double maxElementWidth = deviceWidth / 4;
+    final double maxElementWidth = deviceWidth / 5;
     return GestureDetector(
       onTap: onPressed,
       child: Container(
